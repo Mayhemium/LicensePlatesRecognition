@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\tomzd\\RiderProjects\\RegistrationPlates\\RegistrationPlates\\RegistrationPlates.csproj",
+    "projectName": "RegistrationPlates",
+    "projectPath": "C:\\Users\\tomzd\\RiderProjects\\RegistrationPlates\\RegistrationPlates\\RegistrationPlates.csproj",
+    "outputPath": "C:\\Users\\tomzd\\RiderProjects\\RegistrationPlates\\RegistrationPlates\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "C:\\Users\\tomzd\\RiderProjects\\RegistrationPlates\\Infrastructure\\Infrastructure.csproj": {
+            "projectPath": "C:\\Users\\tomzd\\RiderProjects\\RegistrationPlates\\Infrastructure\\Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.AspNetCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Microsoft.AspNetCore.Razor.Design": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

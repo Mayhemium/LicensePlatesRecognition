@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="483ada57-7d64-41a1-b10f-a8a5f136b0b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/RegistrationPlate.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Context/RegistrationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Extensions/Interface/ILicensePlateReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Extensions/LicensePlateReader.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/Interfaces/IRegistrationsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Services/RegistrationsService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegistrationPlates/Controllers/PictureRecognitionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RegistrationPlates/Controllers/RegistrationsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.idea.CareerMonitoring/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CareerMonitoring.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.CareerMonitoring.Api/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.idea/.idea.absolwenci-wsei/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vs/ProjectSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vs/absolwenci-wsei/v15/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/ActionFilters/ValidatorActionFilter.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/CareerMonitoring.Api.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/AccountUpdateController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/ApiUserController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/AuthController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/EmailController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/ImportFileController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/SurveyAnswerController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/SurveyController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/SurveyReportController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Controllers/SurveyTemplateController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Migrations/20181019081524_xyz.Designer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Migrations/20181019081524_xyz.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Migrations/CareerMonitoringContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Api.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Api.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Api.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Api.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/bin/Debug/netcoreapp2.0/file.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/nlog.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/CareerMonitoring.Api.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/CareerMonitoring.Api.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/CareerMonitoring.Api.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/CareerMonitoring.Api.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Debug/netcoreapp2.0/CareerMonitoring.Api.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/Release/netcoreapp2.0/CareerMonitoring.Api.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Api/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/CareerMonitoring.Core.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Account/Account.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Account/AccountActivation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Account/AccountRestoringPassword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ImportFile/UnregisteredUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Profile/CareerOffice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Profile/Employer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Profile/Graduate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Profile/Student.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Certificate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Course.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Education.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Experience.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/JobOffer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Language.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/ProfileLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/ProfileEdition/Skill.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyReport/DataSet.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyReport/QuestionReport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyReport/SurveyReport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyTemplates/ChoiceOptionTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyTemplates/FieldDataTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyTemplates/QuestionTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyTemplates/RowTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveyTemplates/SurveyTemplate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/ChoiceOption.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/FieldData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/Question.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/Row.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/Survey.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/Surveys/SurveyUserIdentifier.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/ChoiceOptionAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/FieldDataAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/QuestionAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/RowAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/RowChoiceOptionAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/Domains/SurveysAnswers/SurveyAnswer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/CareerMonitoring.Core.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/CareerMonitoring.Core.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/CareerMonitoring.Core.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Debug/netcoreapp2.0/CareerMonitoring.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Release/netcoreapp2.0/CareerMonitoring.Core.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Release/netcoreapp2.0/CareerMonitoring.Core.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Release/netcoreapp2.0/CareerMonitoring.Core.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/Release/netcoreapp2.0/CareerMonitoring.Core.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Core/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/CareerMonitoring.Infrastructure.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Account/ChangePassword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Account/ChangePasswordByRestoringPassword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Account/RestorePassword.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Account/SignIn.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Account/UpdateAccount.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/CareerOffice/RegisterCareerOffice.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Email/EmailToSend.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Employer/RegisterEmployer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Graduate/RegisterGraduate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ImportFile/AddUnregisteredUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ImportFile/ImportFile.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ImportFile/UpdateUnregisteredUser.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddCertificate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddCourse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddEducation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddExperience.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddLanguage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddProfileLink.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/AddSkill.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteCertificate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteCourse.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteEducation.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteExperience.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteLanguage.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/ProfileEdition/DeleteSkill.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Student/RegisterStudent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/ChoiceOptionToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/FieldDataToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/QuestionToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/RowToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/SurveyToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/Survey/SurveyToUpdate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/ChoiceOptionAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/FieldDataAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/QuestionAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/RowAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/RowChoiceOptionAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyAnswer/SurveyAnswerToAdd.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Commands/SurveyReport/CreateSurveyReport.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/DTO/ImportFile/UnregisteredUserDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Data/CareerMonitoringContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Aggregate/ImportFileAggregate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Aggregate/Interfaces/IImportFileAggregate.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/AutoMapper/AutoMapperConfig.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Email/EmailContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Email/Interfaces/IEmailContent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/ExceptionsHelper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/InccorectRoleException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/IncorrectValueException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/InvalidValueException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/ObjectAlreadyExistException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/ExceptionHandling/ObjectDoesNotExistException.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/AccountEmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/EmailConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/EmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/Interfaces/IAccountEmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/Interfaces/IEmailConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/Interfaces/IEmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/Interfaces/ISurveyEmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/Factories/SurveyEmailFactory.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/JWT/Interfaces/IJWTSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/JWT/JWTSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/JWT/TokenDto.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/URL/IURLSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Extensions/URL/URLSettings.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/AccountRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/CareerOfficeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/CertificateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/ChoiceOptionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/ChoiceOptionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/ChoiceOptionTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/CourseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/DataSetRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/EducationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/EmployerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/ExperienceRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/FieldDataAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/FieldDataRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/FieldDataTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/GraduateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IAccountRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ICareerOfficeRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ICertificateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IChoiceOptionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IChoiceOptionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IChoiceOptionTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ICourseRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IDataSetRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IEducationRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IEmployerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IExperienceRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IFieldDataAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IFieldDataRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IFieldDataTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IGraduateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ILanguageRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IProfileLinkRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IQuestionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IQuestionReportRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IQuestionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IQuestionTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IRowAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IRowChoiceOptionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IRowRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IRowTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISkillRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IStudentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISurveyAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISurveyReportRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISurveyRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISurveyTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/ISurveyUserIdentifierRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/Interfaces/IUnregisteredUserRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/LanguageRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/ProfileLinkRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/QuestionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/QuestionReportRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/QuestionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/QuestionTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/RowAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/RowChoiceOptionAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/RowRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/RowTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SkillRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/StudentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SurveyAnswerRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SurveyReportRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SurveyRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SurveyTemplateRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/SurveyUserIdentifierRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Repositories/UnregisteredUserRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/AccountService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/AuthService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/CareerOfficeService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/EmployerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/GraduateService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IAccountService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IAuthService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ICareerOfficeService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IEmployerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IGraduateService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IProfileEditionService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IStudentService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ISurveyAnswerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ISurveyReportService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ISurveyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ISurveyTemplateService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/ISurveyUserIdentifierService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/Interfaces/IUnregisteredUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/ProfileEditionService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/StudentService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/SurveyAnswerService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/SurveyReportService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/SurveyService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/SurveyTemplateService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/SurveyUserIdentifierService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Services/UnregisteredUserService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Account/ChangePasswordByRestoringPasswordValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Account/ChangePasswordValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Account/RestorePasswordValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Account/SignInValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/CareerOffice/RegisterCareerOfficeValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Email/EmailToSendValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Employer/RegisterEmployerValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Graduate/RegisterGraduateValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ImportFile/AddUnregisteredUserValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ImportFile/UpdateUnregisteredUserValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddCertificateValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddCourseValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddEducationValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddExperienceValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddLanguageValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddProfileLinkValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/ProfileEdition/AddSkillValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Student/RegisterStudentValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/Validators/Survey/FieldDataValidator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/CareerMonitoring.Infrastructure.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/CareerMonitoring.Infrastructure.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/CareerMonitoring.Infrastructure.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Infrastructure/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/CareerMonitoring.Tests.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/Services/UnregisteredUserServiceTest .cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Infrastructure.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Tests.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Tests.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/CareerMonitoring.Tests.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netcoreapp10.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/CareerMonitoring.Tests.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/CareerMonitoring.Tests.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/CareerMonitoring.Tests.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.0/CareerMonitoring.Tests.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/CareerMonitoring.Tests.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/CareerMonitoring.Tests.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/CareerMonitoring.Tests.Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/CareerMonitoring.Tests.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/CareerMonitoring.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/Debug/netcoreapp2.1/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-back/CareerMonitoring.Tests/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/app.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/account-activation/account-activation.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/account-activation/account-activation.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/account-activation/account-activation.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/account-activation/account-activation.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/add-admin/add-admin.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/add-admin/add-admin.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/add-admin/add-admin.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/add-admin/add-admin.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/admin/admin.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/admin/admin.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/admin/admin.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/admin/admin.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/auth.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/auth.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/auth.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/auth.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/auth.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/login.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/login.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/login.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/login.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/password-recovery/password-recovery.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/password-recovery/password-recovery.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/password-recovery/password-recovery.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/login/password-recovery/password-recovery.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/guard.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/guid.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/jwt.interceptor.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/preload.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/profiles.animations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/role.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/router.animations.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/other/viewform.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/password-change/password-change.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/password-change/password-change.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/password-change/password-change.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/password-change/password-change.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/register/register.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/register/register.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/register/register.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/register/register.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/restore-password/restore-password.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/restore-password/restore-password.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/restore-password/restore-password.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/restore-password/restore-password.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/services/account.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/auth/services/authentication.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/app-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/app-bar.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/app-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/app-bar.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/user-info/user-info.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/user-info/user-info.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/core/bar/user-info/user-info.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/data/shared.data.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/contact/contact.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/contact/contact.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/contact/contact.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/contact/contact.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/employer/employer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/employer/employer.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/employer/employer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/employer/employer.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/graduate/graduate.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/graduate/graduate.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/graduate/graduate.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/graduate/graduate.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/info.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/info.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/info.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/info.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/info.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/student/student.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/student/student.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/student/student.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/info/student/student.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/admin-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/admin-view.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/admin-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/admin-view.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/admin-view.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-content/admin-content.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-content/admin-content.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-content/admin-content.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-content/admin-content.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-sidenav/admin-sidenav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-sidenav/admin-sidenav.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-sidenav/admin-sidenav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/admin-dashboard/admin-sidenav/admin-sidenav.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-content.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-content.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-content.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-content.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-tile/survey-tile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-tile/survey-tile.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-content/survey-tile/survey-tile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/group-list/group-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/group-list/group-list.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/group-list/group-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/group-list/group-list.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-search/survey-search.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-search/survey-search.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-search/survey-search.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-search/survey-search.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-sidenav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-sidenav.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-sidenav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-dashboard/survey-sidenav/survey-sidenav.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-content.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-content.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-content.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-content.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-tile/survey-sent-tile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-tile/survey-sent-tile.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-content/survey-sent-tile/survey-sent-tile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-sidenav/survey-sent-sidenav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-sidenav/survey-sent-sidenav.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-sidenav/survey-sent-sidenav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/survey-sent-dashboard/survey-sent-sidenav/survey-sent-sidenav.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-tab/add-user-tab.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-tab/add-user-tab.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-tab/add-user-tab.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/add-user-tab/add-user-tab.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/import-user-tab/import-user-tab.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/import-user-tab/import-user-tab.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/import-user-tab/import-user-tab.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/add-user-dialog/import-user-tab/import-user-tab.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-content.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-content.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-content.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-content.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-tile/users-tile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-tile/users-tile.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-content/users-tile/users-tile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-sidenav/users-sidenav.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-sidenav/users-sidenav.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-sidenav/users-sidenav.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/dashboard-views/users-dashboard/users-sidenav/users-sidenav.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/draggable-helper.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/draggable.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/draggable.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/grippable.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/sortable-list.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/directives/sortable.directive.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/models/survey-creator.models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/models/survey-result.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/models/survey.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/resolvers/survey-creator.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/resolvers/survey-result.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/resolvers/survey-viewform.resolver.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/services/survey.services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/services/user.services.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/move-question-dialog/move-question-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/move-question-dialog/move-question-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/move-question-dialog/move-question-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/send-survey-dialog/send-survey-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/send-survey-dialog/send-survey-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/send-survey-dialog/send-survey-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator-component/button-single-control/button-single-control.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator-component/button-single-control/button-single-control.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator-component/button-single-control/button-single-control.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-creator/survey-creator.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-result/survey-result.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-result/survey-result.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-result/survey-result.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-result/survey-result.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/admin-view/survey-container/survey-result/survey-result.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/employer-view/employer-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/employer-view/employer-view.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/employer-view/employer-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/employer-view/employer-view.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/employer-view/employer-view.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/graduate-view/graduate-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/graduate-view/graduate-view.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/graduate-view/graduate-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/graduate-view/graduate-view.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/graduate-view/graduate-view.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/main-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/main-view.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/main-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/main-view.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/main-view.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/main-settings/main-settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/main-settings/main-settings.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/main-settings/main-settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/profile-settings/profile-settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/profile-settings/profile-settings.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/profile-settings/profile-settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/settings.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/settings.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/settings.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/settings.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/settings/settings.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/student-view/student-view.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/student-view/student-view.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/student-view/student-view.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/student-view/student-view.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/main-view/student-view/student-view.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/materials/materials.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/models/shared.models.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/models/user.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/others/route.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/others/survey.auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/services/shared.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/icon-button/icon-button.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/icon-button/icon-button.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/icon-button/icon-button.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/icon-button/icon-button.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/progress-button/progress-button.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/progress-button/progress-button.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/progress-button/progress-button.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/buttons/progress-button/progress-button.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/confirm-dialog/confirm-dialog.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/confirm-dialog/confirm-dialog.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/confirm-dialog/confirm-dialog.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/confirm-dialog/confirm-dialog.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-bar/dashboard-bar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-bar/dashboard-bar.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-bar/dashboard-bar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-bar/dashboard-bar.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-list.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-list.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-list.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-list.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-tile/dashboard-tile.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-tile/dashboard-tile.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard-list/dashboard-tile/dashboard-tile.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/dashboard/dashboard.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-overlay/loading-overlay.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-overlay/loading-overlay.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-overlay/loading-overlay.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-overlay/loading-overlay.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-screen/loading-screen.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-screen/loading-screen.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-screen/loading-screen.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/loading-screen/loading-screen.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/survey-container/survey-container.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/survey-container/survey-container.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/survey-container/survey-container.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/survey-container/survey-container.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/shared/survey-container/survey-container.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-completed/survey-completed.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-completed/survey-completed.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-completed/survey-completed.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-completed/survey-completed.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-viewform.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-viewform.component.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-viewform.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-viewform.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/app/survey-viewform/survey-viewform.routing.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/assets/1920-156.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/assets/logo-wsei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/assets/profile-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/styles.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/styles/colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/styles/material-theme.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/src/typings.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../absolwenci-wsei-front/tslint.json" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/PictureRecognitionController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+              <folding>
+                <marker date="1555651491422" expanded="false" signature="6:294" ph="..." />
+                <marker date="1555651491422" expanded="true" signature="336:1517" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="445:1515" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="694:808" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="893:1196" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="1019:1080" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="1112:1186" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="1298:1509" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="1324:1393" ph="{...}" />
+                <marker date="1555651491422" expanded="true" signature="1425:1499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Infrastructure/Extensions/LicensePlateReader.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-11">
+              <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+              <folding>
+                <marker date="1556033878392" expanded="false" signature="6:341" ph="..." />
+                <marker date="1556033878392" expanded="true" signature="378:11210" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="436:11208" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="542:1361" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="585:816" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="1255:1311" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="1420:1945" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="2317:3146" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="2560:3103" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="3218:3505" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="3396:3474" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="3842:9066" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="3900:9058" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="4193:9047" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="4263:9033" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="4324:4865" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="4366:4602" ph="/* If the contour has less than 3 children, it is not a license plate (assuming license plate has at least 3 char ... */" />
+                <marker date="1556033878392" expanded="true" signature="4974:5203" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="5248:5477" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="5674:6295" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="5716:5979" ph="/* if the width height ratio is not in the specific range,it is not a license plate ... */" />
+                <marker date="1556033878392" expanded="true" signature="6394:9016" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="6556:6796" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="6974:7108" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="7131:7321" ph="/* tmp1.Save(&quot;D:/img0.jpg&quot;); ... */" />
+                <marker date="1556033878392" expanded="true" signature="8291:8746" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="8610:8723" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="9074:9288" ph="/// Filter the license plate to remove noise ... " />
+                <marker date="1556033878392" expanded="true" signature="9338:11130" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="9810:10837" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="10131:10771" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="10204:10756" ph="{...}" />
+                <marker date="1556033878392" expanded="true" signature="10355:10739" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>licenses</find>
+      <find>roi</find>
+      <find>save</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/RegistrationPlate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RegistrationPlates/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Extensions/Interface/ILicensePlateReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RegistrationPlates/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/PictureRecognitionController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Services/RegistrationsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Extensions/LicensePlateReader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Services/Interfaces/IRegistrationsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Context/RegistrationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/RegistrationsController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/RegistrationPlates/Controllers/ValuesController.cs" />
+        <option value="$PROJECT_DIR$/Core/Class1.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Class1.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Context/RegistrationContext.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/appsettings.json" />
+        <option value="$PROJECT_DIR$/Core/RegistrationPlate.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/Infrastructure/Services/Interfaces/IRegistrationsService.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Services/RegistrationsService.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/Controllers/RegistrationsController.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/Program.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Extensions/Interface/Interface1.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Extensions/Interface/ILicensePlateReader.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/Startup.cs" />
+        <option value="$PROJECT_DIR$/RegistrationPlates/Controllers/PictureRecognitionController.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Extensions/LicensePlateReader.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="1294" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RegistrationPlates" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Infrastructure/bin/Debug/netcoreapp2.2/Emgu.CV.World.dll" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="RegistrationPlates" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RegistrationPlates/RegistrationPlates.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="RegistrationPlates" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\tomzd\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="483ada57-7d64-41a1-b10f-a8a5f136b0b6" name="Default Changelist" comment="" />
+      <created>1555455889133</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555455889133</updated>
+      <workItem from="1555455891554" duration="8301000" />
+      <workItem from="1555642532382" duration="7715000" />
+      <workItem from="1555650558375" duration="8981000" />
+      <workItem from="1555666425203" duration="284000" />
+      <workItem from="1555666741671" duration="1497000" />
+      <workItem from="1556033775671" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27404000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10214626" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25135428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1787649" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32936078" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" visible="true" weight="0.32719395" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Errors In Solution" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.19773096" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="2" />
+      <window_info anchor="bottom" id="REST Client" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Build" order="9" weight="0.32932165" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" visible="true" weight="0.33260393" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="1" />
+      <window_info anchor="right" id="Errors In Solution" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Core/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Context/RegistrationContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1555458261671" expanded="true" signature="6:48" ph="..." />
+            <marker date="1555458261671" expanded="true" signature="82:350" ph="{...}" />
+            <marker date="1555458261671" expanded="true" signature="133:348" ph="{...}" />
+            <marker date="1555458261671" expanded="true" signature="249:269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/appsettings.Development.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/RegistrationPlate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <marker date="1555458689461" expanded="true" signature="14:160" ph="{...}" />
+            <marker date="1555458689461" expanded="true" signature="51:158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/ValuesController.cs" />
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Properties/launchSettings.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Services/Interfaces/IRegistrationsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <marker date="1555461607676" expanded="true" signature="79:309" ph="{...}" />
+            <marker date="1555461607676" expanded="true" signature="124:307" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Services/RegistrationsService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding>
+            <marker date="1555461759581" expanded="false" signature="6:182" ph="..." />
+            <marker date="1555461759581" expanded="true" signature="217:1221" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="281:1219" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="408:460" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="515:610" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="660:872" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="731:774" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="925:1082" ph="{...}" />
+            <marker date="1555461759581" expanded="true" signature="1123:1213" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1555644795174" expanded="false" signature="6:288" ph="..." />
+            <marker date="1555644795174" expanded="true" signature="318:737" ph="{...}" />
+            <marker date="1555644795174" expanded="true" signature="345:735" ph="{...}" />
+            <marker date="1555644795174" expanded="true" signature="398:564" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/RegistrationsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <marker date="1555461801425" expanded="false" signature="6:121" ph="..." />
+            <marker date="1555461801425" expanded="true" signature="163:1901" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="271:1899" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="432:510" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="597:836" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="623:720" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="752:826" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="926:1159" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="952:1043" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1075:1149" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1262:1522" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1288:1406" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1438:1512" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1630:1893" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1656:1777" ph="{...}" />
+            <marker date="1555461801425" expanded="true" signature="1809:1883" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Extensions/Interface/Interface1.cs" />
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="42" column="66" selection-start-line="42" selection-start-column="66" selection-end-line="42" selection-end-column="66" />
+          <folding>
+            <marker date="1555648420486" expanded="false" signature="6:664" ph="..." />
+            <marker date="1555648420486" expanded="true" signature="694:2152" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="721:2150" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="780:843" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="1066:1536" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="1724:2144" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="1771:1848" ph="{...}" />
+            <marker date="1555648420486" expanded="true" signature="1865:2068" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/wwwroot/imgtemp/76.Jpeg" />
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Extensions/Interface/ILicensePlateReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <marker date="1555648380798" expanded="true" signature="63:169" ph="{...}" />
+            <marker date="1555648380798" expanded="true" signature="106:167" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/wwwroot/imgtemp/73.jpg" />
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/wwwroot/imgtemp/83.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RegistrationPlates/Controllers/PictureRecognitionController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="28" column="99" selection-start-line="28" selection-start-column="99" selection-end-line="28" selection-end-column="99" />
+          <folding>
+            <marker date="1555651491422" expanded="false" signature="6:294" ph="..." />
+            <marker date="1555651491422" expanded="true" signature="336:1517" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="445:1515" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="694:808" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="893:1196" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="1019:1080" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="1112:1186" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="1298:1509" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="1324:1393" ph="{...}" />
+            <marker date="1555651491422" expanded="true" signature="1425:1499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Extensions/LicensePlateReader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11">
+          <caret line="125" column="13" lean-forward="true" selection-start-line="125" selection-start-column="13" selection-end-line="125" selection-end-column="13" />
+          <folding>
+            <marker date="1556033878392" expanded="false" signature="6:341" ph="..." />
+            <marker date="1556033878392" expanded="true" signature="378:11210" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="436:11208" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="542:1361" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="585:816" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="1255:1311" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="1420:1945" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="2317:3146" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="2560:3103" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="3218:3505" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="3396:3474" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="3842:9066" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="3900:9058" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="4193:9047" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="4263:9033" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="4324:4865" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="4366:4602" ph="/* If the contour has less than 3 children, it is not a license plate (assuming license plate has at least 3 char ... */" />
+            <marker date="1556033878392" expanded="true" signature="4974:5203" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="5248:5477" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="5674:6295" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="5716:5979" ph="/* if the width height ratio is not in the specific range,it is not a license plate ... */" />
+            <marker date="1556033878392" expanded="true" signature="6394:9016" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="6556:6796" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="6974:7108" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="7131:7321" ph="/* tmp1.Save(&quot;D:/img0.jpg&quot;); ... */" />
+            <marker date="1556033878392" expanded="true" signature="8291:8746" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="8610:8723" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="9074:9288" ph="/// Filter the license plate to remove noise ... " />
+            <marker date="1556033878392" expanded="true" signature="9338:11130" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="9810:10837" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="10131:10771" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="10204:10756" ph="{...}" />
+            <marker date="1556033878392" expanded="true" signature="10355:10739" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RIDER_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x64/concrt140.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x64/cvextern.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x64/msvcp140.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x64/opencv_ffmpeg401_64.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x64/vcruntime140.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x86/concrt140.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x86/cvextern.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x86/msvcp140.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x86/opencv_ffmpeg401.dll" />
+    <content url="file://$USER_HOME$/.nuget/packages/emgu.cv/4.0.1.3373/build/x86/vcruntime140.dll" />
+    <content url="file://$MODULE_DIR$/../.." />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

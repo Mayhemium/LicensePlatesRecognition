@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x64\concrt140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x64\cvextern.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x64\msvcp140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x64\opencv_ffmpeg401_64.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x64\vcruntime140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x86\concrt140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x86\cvextern.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x86\msvcp140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x86\opencv_ffmpeg401.dll" t="Include" />
+    <e p="C:\Users\tomzd\.nuget\packages\emgu.cv\4.0.1.3373\build\x86\vcruntime140.dll" t="Include" />
+    <e p="C:\Users\tomzd\.Rider2018.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\tomzd\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_RegistrationPlates.259897077.00" t="ExcludeRecursive" />
+    <e p="C:\Users\tomzd\RiderProjects\RegistrationPlates" t="IncludeFlat">
+      <e p="Core" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="RegistrationPlate.cs" t="Include" />
+      </e>
+      <e p="Infrastructure" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Commands" t="Include" />
+        <e p="Context" t="Include">
+          <e p="RegistrationContext.cs" t="Include" />
+        </e>
+        <e p="Extensions" t="Include">
+          <e p="Interface" t="Include">
+            <e p="ILicensePlateReader.cs" t="Include" />
+          </e>
+          <e p="LicensePlateReader.cs" t="Include" />
+        </e>
+        <e p="Infrastructure.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Infrastructure.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="Interfaces" t="Include">
+            <e p="IRegistrationsService.cs" t="Include" />
+          </e>
+          <e p="RegistrationsService.cs" t="Include" />
+        </e>
+        <e p="x64" t="Include" />
+        <e p="x86" t="Include" />
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="RegistrationPlates" t="IncludeRecursive">
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Controllers" t="Include">
+          <e p="PictureRecognitionController.cs" t="Include" />
+          <e p="RegistrationsController.cs" t="Include" />
+        </e>
+        <e p="Migrations" t="Include">
+          <e p="20190416235421_asd.cs" t="Include" />
+          <e p="20190416235421_asd.Designer.cs" t="Include" />
+          <e p="RegistrationContextModelSnapshot.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="RegistrationPlates.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="RegistrationPlates.csproj" t="IncludeRecursive" />
+        <e p="Startup.cs" t="Include" />
+        <e p="tessdata" t="Include">
+          <e p="eng.cube.bigrams" t="Include" />
+          <e p="eng.cube.fold" t="Include" />
+          <e p="eng.cube.lm" t="Include" />
+          <e p="eng.cube.nn" t="Include" />
+          <e p="eng.cube.params" t="Include" />
+          <e p="eng.cube.size" t="Include" />
+          <e p="eng.cube.word-freq" t="Include" />
+          <e p="eng.tesseract_cube.nn" t="Include" />
+          <e p="eng.traineddata" t="Include" />
+        </e>
+        <e p="wwwroot" t="Include">
+          <e p="imgtemp" t="Include">
+            <e p="83.jpg" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="RegistrationPlates.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
